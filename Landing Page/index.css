@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(bk4.png);
+    background-size: 1537px;
+    background-repeat: no-repeat;
+    background-position: center 7%;   
+}
+
+#navbar{
+    display:flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+}
+
+#navbar::before{
+    content: "";
+    background-color: rgb(10, 28, 225);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+#logo{
+    margin: -36px 36px;
+}
+
+#logo img{
+    height: 142px;
+    width: 206px;
+}
+
+ul{
+    display: flex;
+}
+
+#navbar ul li{
+    display:flex;
+    list-style: none;
+    font-size: 1.3rem;
+    font-family: "Rubik", sans-serif;
+    cursor: pointer;
+}
+
+#navbar ul li a{
+    display: flex;
+    padding: 0px 9px;
+    margin-top: 22px;
+    margin-bottom: 26px;
+    border-radius: 20px;
+    color: rgb(68, 21, 133);
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+#home {
+    position: relative; /* Ensure the pseudo-element positions relative to this element */
+    display: flex;
+    flex-direction: column;
+    height: 621px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home h1{
+    color: rgb(54, 8, 96);
+    text-align: center;
+}
+
+.slogan{
+    color: rgb(54, 8, 96);
+    text-align: center;
+    padding: 12px;
+    font-size: 2.9rem;
+    font-family: "Merriweather", serif;
+    text-shadow: 1.5px 1.5px 1px black;    
+}
+
+.description{
+    padding-top: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: rgb(26, 0, 47);
+    font-size: 1.4rem;
+    font-weight: 630;
+    justify-content: center; 
+    font-family: "Quicksand", sans-serif; 
+    text-shadow: 0.2px 0.2px 0.2px black;      
+}
+
+.description p{
+    text-align: center;
+}
+
+.output{
+    padding-bottom: 4px;
+    color: rgb(53, 1, 72);
+    text-align: center;
+    text-shadow: 0.2px 0.2px 0.2px black;      
+    font-size: 1.7rem;
+    font-weight: 480;
+    font-family: "IBM Plex Serif", serif;
+}
+
+.button{
+    padding: 3px;
+    border: 10px;
+    font-size: 1.2rem;
+    font-family: "Arvo", serif;
+    font-weight: 500;
+    text-shadow: 0.2px 0.2px 0.2px black;      
+    background-color: rgb(254, 127, 30);
+    color: rgb(8, 4, 54);
+    border: 1.7px solid rgb(8, 4, 36);
+    border-radius: 10px;
+    margin: 8px 15px;
+    cursor: pointer;
+
+}
+
+.button:hover{
+    
+    font-size: 1.2rem;
+    background-color: rgb(255, 51, 0);
+    color: rgb(8, 4, 54);
+
+}
+
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+
+/* Utility Classes
+.h-primary{
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+.h-secondary{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.3rem;
+    padding: 12px;
+}
+
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.center{
+    text-align: center;
+} */
+

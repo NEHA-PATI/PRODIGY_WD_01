@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(bk4.png);
+    background-size: 1537px;
+    background-repeat: no-repeat;
+    background-position: center 3%;
+}
+
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+}
+
+#navbar::before {
+    content: "";
+    background-color: rgb(10, 28, 225);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+#logo {
+    margin: -36px 36px;
+}
+
+#logo img {
+    height: 142px;
+    width: 206px;
+}
+
+ul {
+    display: flex;
+}
+
+#navbar ul li {
+    display: flex;
+    list-style: none;
+    font-size: 1.3rem;
+    font-family: "Rubik", sans-serif;
+    cursor: pointer;
+}
+
+#navbar ul li a {
+    display: flex;
+    padding: 0px 9px;
+    margin-top: 22px;
+    margin-bottom: 26px;
+    border-radius: 20px;
+    color: rgb(68, 21, 133);
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+#services {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#services .box {
+    height: 170px;
+    width: 170px;
+    margin: 20px;
+    border: 2px solid rgb(13, 1, 21);
+    padding: 27px;
+    margin-top: 6px;
+    margin-left: 44px;
+    margin-bottom: 20px;
+    margin-right: 26px;
+    border-radius: 37px;
+    background: rgb(252, 255, 221);
+    
+    text-align: center;
+    justify-content: center;
+}
+
+#services .box:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(145, 137, 255);
+}
+
+
+
+
+#services .box img {
+    height: 140px;
+    width: 140px;
+    margin: -3px;
+    display: block;
+    justify-content: center;
+}
+
+#services .box h2{
+    font-size: 1.2rem;
+    font-family: "Merriweather", serif;
+}
+
+#services-container h1{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-size: 2.8rem;
+    color: rgb(22, 5, 37);
+    text-align: center;
+    font-family: "Merriweather", serif;
+    text-shadow: 1.5px 1.5px 1px black;   
+}
+
+
